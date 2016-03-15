@@ -13,5 +13,10 @@ String toString(){
 }
 
     static constraints = {
+title()
+code()
+tutor()
+department()
+description maxSize: 200
     }
 }
