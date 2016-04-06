@@ -8,7 +8,7 @@ String department
 String description
 
 String toString(){
-"$title,$code,$tutor"
+"$title,$code,department"
 
 }
 

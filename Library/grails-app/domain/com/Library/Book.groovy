@@ -10,11 +10,9 @@ String student
 
 String toString(){
 "$title,$author,$isbn"
-
 }
 
-
-    static constraints = {
+static constraints = {
 title()
 author()
 isbn()
