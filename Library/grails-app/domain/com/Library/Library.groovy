@@ -1,23 +1,17 @@
 package com.Library
 
 class Library {
-String book
-String student
 String location
 String openingHours
-String librarian
+
+static hasMany=[librarians:Librarian, students:Student, books:Book]
 
 String toString(){
 
-"$location,$openingHours"
-
-}
+"$location,$openingHours"}
 
 static constraints = {
-book()
-student()
 location()
 openingHours()
-librarian()
     }
 }
